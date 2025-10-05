@@ -1,0 +1,11 @@
+# Paso 1: crear y escribir en my_notes.txt
+notas = [
+    "Primera nota: repasar Python y Git.\n",
+    "Segunda nota: terminar el proyecto de la clase.\n",
+    "Tercera nota: subir cambios a GitHub.\n",
+]
+
+with open("my_notes.txt", "w", encoding="utf-8") as f:
+    f.writelines(notas)   # escribe todas las líneas (incluyen \n)
+# El archivo se cierra automáticamente al salir del withCuarta nota: practicar lectura y cierre.
+Quinta nota: cierre manual con close().
