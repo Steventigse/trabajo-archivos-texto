@@ -1,4 +1,3 @@
-cat > main.py << 'EOF'
 from pathlib import Path
 import argparse
 
@@ -40,4 +39,3 @@ if __name__ == "__main__":
     if args.append: append(args.append)
     if not any([args.write, args.read, args.append]):
         p.print_help()
-EOF
